@@ -16,8 +16,8 @@ jobs:
         with:   
             node-version: 16
 
-      - name: Insatall dependencies
-        run: npm Insatall
+      - name: Install dependencies
+        run: npm install
 
       - name: Run test
         run: npm test
